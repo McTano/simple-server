@@ -6,7 +6,9 @@
   "author": "Tristan MacKinlay <tsmackinlay@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node ."
+    "start": "ts-node .",
+    "build": "tsc --project tsconfig.json",
+    "predeploy": "yarn build"
   },
   "dependencies": {
     "@types/express": "^4.17.6",
