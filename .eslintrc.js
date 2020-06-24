@@ -1,4 +1,3 @@
-// @ts-check
 module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -49,7 +48,7 @@ module.exports = {
     'jsx-a11y/click-events-have-key-events': 'off', // TODO
     'jsx-a11y/no-static-element-interactions': 'off', // TODO
     '@typescript-eslint/no-unused-vars': [
-      'error',
+      'warn',
       { argsIgnorePattern: '^_', ignoreRestSiblings: true },
     ],
     '@typescript-eslint/ban-ts-ignore': 'off',
